@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    
+    <title>Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 | 攸然自得</title>
+
+    <meta name="description" content="&lt;h2 id=&#34;在-Linux-上安装-Git&#34;&gt;&lt;a href=&#34;#在-Linux-上安装-Git&#34; class=&#34;headerlink&#34; title=&#34;在 Linux 上安装 Git&#34;&gt;&lt;/a&gt;在 Linux 上安装 Git&lt;/h2&gt;&lt;h4 id=&#34;1、下载并安装-Git：&#34;&gt;&lt;a href=&#34;#1、下载并安装-Git：&#34; class=&#34;headerlink&#34; title=&#34;1、下载并安装 Git：&#34;&gt;&lt;/a&gt;1、下载并安装 Git：&lt;/h4&gt;&lt;pre&gt;&lt;code class=&#34;shell&#34;&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;">
+    <meta name="keywords" content="">
+
+    
+
+    <meta property="og:locale" content="cn" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content= "Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 | 攸然自得"  />
+    <meta property="og:description" content= "&lt;h2 id=&#34;在-Linux-上安装-Git&#34;&gt;&lt;a href=&#34;#在-Linux-上安装-Git&#34; class=&#34;headerlink&#34; title=&#34;在 Linux 上安装 Git&#34;&gt;&lt;/a&gt;在 Linux 上安装 Git&lt;/h2&gt;&lt;h4 id=&#34;1、下载并安装-Git：&#34;&gt;&lt;a href=&#34;#1、下载并安装-Git：&#34; class=&#34;headerlink&#34; title=&#34;1、下载并安装 Git：&#34;&gt;&lt;/a&gt;1、下载并安装 Git：&lt;/h4&gt;&lt;pre&gt;&lt;code class=&#34;shell&#34;&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;" />
+    <meta property="og:url" content="http://yoursite.com/2020/02/21/2020-2-21-Linux-0001/index.html" />
+    <meta property="og:site_name" content="" />
+    <meta property="article:author" content="Tiney" />
+    <meta property="article:publisher" content="" />
+    <meta property="og:description" content="&lt;h2 id=&#34;在-Linux-上安装-Git&#34;&gt;&lt;a href=&#34;#在-Linux-上安装-Git&#34; class=&#34;headerlink&#34; title=&#34;在 Linux 上安装 Git&#34;&gt;&lt;/a&gt;在 Linux 上安装 Git&lt;/h2&gt;&lt;h4 id=&#34;1、下载并安装-Git：&#34;&gt;&lt;a href=&#34;#1、下载并安装-Git：&#34; class=&#34;headerlink&#34; title=&#34;1、下载并安装 Git：&#34;&gt;&lt;/a&gt;1、下载并安装 Git：&lt;/h4&gt;&lt;pre&gt;&lt;code class=&#34;shell&#34;&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;" />
+    <meta name="twitter:title" content="Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 | 攸然自得"/>
+    <meta name="twitter:description" content="&lt;h2 id=&#34;在-Linux-上安装-Git&#34;&gt;&lt;a href=&#34;#在-Linux-上安装-Git&#34; class=&#34;headerlink&#34; title=&#34;在 Linux 上安装 Git&#34;&gt;&lt;/a&gt;在 Linux 上安装 Git&lt;/h2&gt;&lt;h4 id=&#34;1、下载并安装-Git：&#34;&gt;&lt;a href=&#34;#1、下载并安装-Git：&#34; class=&#34;headerlink&#34; title=&#34;1、下载并安装 Git：&#34;&gt;&lt;/a&gt;1、下载并安装 Git：&lt;/h4&gt;&lt;pre&gt;&lt;code class=&#34;shell&#34;&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;"/>
+    <script type="application/ld+json">
+        {
+            "description": "&lt;h2 id=&#34;在-Linux-上安装-Git&#34;&gt;&lt;a href=&#34;#在-Linux-上安装-Git&#34; class=&#34;headerlink&#34; title=&#34;在 Linux 上安装 Git&#34;&gt;&lt;/a&gt;在 Linux 上安装 Git&lt;/h2&gt;&lt;h4 id=&#34;1、下载并安装-Git：&#34;&gt;&lt;a href=&#34;#1、下载并安装-Git：&#34; class=&#34;headerlink&#34; title=&#34;1、下载并安装 Git：&#34;&gt;&lt;/a&gt;1、下载并安装 Git：&lt;/h4&gt;&lt;pre&gt;&lt;code class=&#34;shell&#34;&gt;sudo apt-get install git&lt;/code&gt;&lt;/pre&gt;",
+            "author": { "@type": "Person", "name": "Tiney" },
+            "@type": "BlogPosting",
+            "url": "http://yoursite.com/2020/02/21/2020-2-21-Linux-0001/index.html",
+            "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http://yoursite.comundefined"
+            },
+            "name": "Tiney"
+            },
+            "headline": "Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 | 攸然自得",
+            "datePublished": "2020-02-21T00:00:00.000Z",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "http://yoursite.com/2020/02/21/2020-2-21-Linux-0001/index.html"
+            },
+            "@context": "http://schema.org"
+        }
+    </script>
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<link rel="stylesheet" href="/dist/build.css?v=1654266144177.css">
+
+
+    
+<link rel="stylesheet" href="/dist/custom.css?v=1654266144177.css">
+
+
+    <script>
+        window.isPost = true
+        window.aomori = {
+            
+            
+            
+        }
+        window.aomori_logo_typed_animated = false
+        window.aomori_search_algolia = false
+
+    </script>
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+
+    <div class="container">
+    <header class="header">
+        <div class="header-type">
+            
+            <div class="header-type-inner">
+                
+                    <a class="header-type-title" href="/">攸然自得</a>
+                
+    
+                
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="header-menu-inner">
+                
+                <a href="/">Home</a>
+                
+                <a href="/archives">Archives</a>
+                
+            </div>
+            <div class="header-menu-social">
+                
+            </div>
+        </div>
+
+        <div class="header-menu-mobile">
+            <div class="header-menu-mobile-inner" id="mobile-menu-open">
+                <i class="icon icon-menu"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-menu-mobile-menu">
+        <div class="header-menu-mobile-menu-bg"></div>
+        <div class="header-menu-mobile-menu-wrap">
+            <div class="header-menu-mobile-menu-inner">
+                <div class="header-menu-mobile-menu-close" id="mobile-menu-close">
+                    <i class="icon icon-cross"></i>
+                </div>
+                <div class="header-menu-mobile-menu-list">
+                    
+                    <a href="/">Home</a>
+                    
+                    <a href="/archives">Archives</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <div class="container">
+        <div class="main">
+            <section class="inner">
+                <section class="inner-main">
+                    <div class="post">
+    <article id="post-clxeiqf4p002safoy8ga5fxw3" class="article article-type-post" itemscope
+    itemprop="blogPost">
+
+    <div class="article-inner">
+
+        
+          
+        
+        
+        
+
+        
+        <header class="article-header">
+            
+  
+    <h1 class="article-title" itemprop="name">
+      Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记
+    </h1>
+  
+
+        </header>
+        
+
+        <div class="article-more-info article-more-info-post hairline">
+
+            <div class="article-date">
+  <time datetime="2020-02-21T00:00:00.000Z" itemprop="datePublished">2020-02-21</time>
+</div>
+
+            
+            <div class="article-category">
+                <a class="article-category-link" href="/categories/%E6%97%A5%E8%AE%B0/">日记</a>
+            </div>
+            
+
+            
+            <div class="article-tag">
+                <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ORID/" rel="tag">ORID</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li></ul>
+            </div>
+            
+
+            
+            <div class="article-busuanzi">
+                <span id="busuanzi_value_page_pv">N</span> 人看过
+            </div>
+            
+
+        </div>
+
+        <div class="article-entry post-inner-html hairline" itemprop="articleBody">
+            <h2 id="在-Linux-上安装-Git"><a href="#在-Linux-上安装-Git" class="headerlink" title="在 Linux 上安装 Git"></a>在 Linux 上安装 Git</h2><h4 id="1、下载并安装-Git："><a href="#1、下载并安装-Git：" class="headerlink" title="1、下载并安装 Git："></a>1、下载并安装 Git：</h4><pre><code class="shell">sudo apt-get install git</code></pre>
+<span id="more"></span>
+<h4 id="2、配置-GitHub"><a href="#2、配置-GitHub" class="headerlink" title="2、配置 GitHub"></a>2、配置 GitHub</h4><p>一旦安装完成，接下去就是配置 GitHub 用户的详细配置信息。请使用下面的两条命令，并确保用你自己的 GitHub 用户名替换 user_name，用你创建 GitHub 账户的电子邮件替换 email_id。</p>
+<pre><code class="shell">git config --global user.name &quot;user_name&quot;
+git config --global user.email &quot;email_id&quot;</code></pre>
+<h4 id="3、创建本地仓库"><a href="#3、创建本地仓库" class="headerlink" title="3、创建本地仓库"></a>3、创建本地仓库</h4><p>在你的系统上创建一个目录。它将会被作为本地仓库使用，稍后它会被推送到 GitHub 的远程仓库。请使用如下命令：</p>
+<pre><code class="shell">git init Mytest</code></pre>
+<p>如果目录被成功创建，你会看到如下信息：</p>
+<pre><code class="shell">Initialized empty Git repository in /home/akshay/Mytest/.git/</code></pre>
+<p>这行信息可能随你的系统不同而变化。</p>
+<p>这里，==Mytest== 是创建的目录，而==init== 将其转化为一个 GitHub 仓库。将当前目录改为这个新创建的目录。</p>
+<pre><code class="powershell">cd Mytest</code></pre>
+<h4 id="4、新建一个-README-文件来描述仓库"><a href="#4、新建一个-README-文件来描述仓库" class="headerlink" title="4、新建一个 README 文件来描述仓库"></a>4、新建一个 README 文件来描述仓库</h4><p>现在创建一个 ==README== 文件并输入一些文本，如 “this is git setup on linux”。README 文件一般用于描述这个仓库用来放置什么内容或这个项目是关于什么的。例如：</p>
+<pre><code class="shell">gedit README</code></pre>
+<p>你可以使用其它文本编辑器。我喜欢使用 gedit。README 文件的内容可以为：</p>
+<pre><code class="shell">This is a git repo</code></pre>
+<h4 id="5、将仓库里的文件加入一个索引"><a href="#5、将仓库里的文件加入一个索引" class="headerlink" title="5、将仓库里的文件加入一个索引"></a>5、将仓库里的文件加入一个索引</h4><p>这是很重要的一步。这里我们会将所有需要推送到 GitHub 的内容都加入一个索引。这些内容可能包括你第一次加入仓库的文本文件或者应用程序，也有可能是对已存在文件的一些编辑（文件的一个更新版本）。<br>用下面的命令将它们加入索引：</p>
+<pre><code class="shell">git add README</code></pre>
+<p>请注意 ==git add== 命令能将任意数量的文件和目录加入到索引。这里，当我说 “索引” 的时候，我是指一个有一定空间的缓冲区，这个缓冲区存储了所有已经被加入到 Git 仓库的文件或目录。</p>
+<h4 id="6、将所作的改动加入索引"><a href="#6、将所作的改动加入索引" class="headerlink" title="6、将所作的改动加入索引"></a>6、将所作的改动加入索引</h4><p>所有的文件都加好以后，你就可以提交了。这意味着你已经确定了最终的文件改动（或增加），现在它们已经准备好被上传到我们自己的仓库了。请使用命令：</p>
+<pre><code class="shell">git commit -m &quot;some_message&quot;</code></pre>
+<h4 id="7、在-GitHub-上创建一个仓库"><a href="#7、在-GitHub-上创建一个仓库" class="headerlink" title="7、在 GitHub 上创建一个仓库"></a>7、在 GitHub 上创建一个仓库</h4><p>在 GitHub 上创建一个仓库。请注意仓库的名字必须和你本地创建的仓库的名字严格一致。在这个例子里是 “Mytest”。请首先登录你的 GitHub 账户 。点击页面右上角的 “+” 符号，并选择“new repository”。如下图所示填入详细信息，点击 “create repository”。<br><img src="https://img-blog.csdnimg.cn/20200220172457983.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpbnJ5,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200220173059266.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpbnJ5,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>一旦创建完成，我们就能将本地的仓库推送到 GitHub 你名下的仓库，用下列命令连接 GitHub 上的仓库：<br>==请注意：请确保在运行下列命令前替换了路径中的 “user_name” 和 “Mytest” 为你的 GitHub 用户名和目录名！==</p>
+<pre><code class="shell">git remote add origin https://github.com/user\_name/Mytest.git&gt;</code></pre>
+<h4 id="8、将本地仓库里的文件推送到-GitHub-仓库"><a href="#8、将本地仓库里的文件推送到-GitHub-仓库" class="headerlink" title="8、将本地仓库里的文件推送到 GitHub 仓库"></a>8、将本地仓库里的文件推送到 GitHub 仓库</h4><p>最后一步是用下列的命令将本地仓库的内容推送到远程仓库（GitHub）：</p>
+<pre><code class="shell">git push origin master</code></pre>
+<p>当提示登录名和密码时键入登录名和密码。</p>
+<h2 id="安装GitNote"><a href="#安装GitNote" class="headerlink" title="安装GitNote"></a>安装GitNote</h2><p><a target="_blank" rel="noopener" href="https://gitnoteapp.com/zh/">GitNote</a> 是一款基于 Git 的云笔记工具，支持 Windows、macOS、Linux，使用 Git 仓库作为数据保存，如 GitHub、GitLab 等，内置 git 支持，依托 Git 仓库的特性，拥有历史版本、私密笔记、无限空间等特点。<br><img src="https://img-blog.csdnimg.cn/20200220212737877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpbnJ5,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>正常在Github注册过之后并新建一个库后，就可以直接点第二项<br><img src="https://img-blog.csdnimg.cn/20200220213452781.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpbnJ5,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>远程里选创建库的时候生成的git文件路径，邮箱和密码就填Github上注册的帐号就可以了<img src="https://img-blog.csdnimg.cn/20200220214327644.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RpbnJ5,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>不过现在有一个问题是，只能是公开的Git库才可以用这种方法，私密库用不了，不知道是版本问题还是其它原因，私密库一直报错，登录不了，所以想用私密库的话只能选第一项，先生成本地文件，然后再用其它方式做Github同步。</p>
+
+        </div>
+
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<nav class="article-nav">
+  
+    <a href="/2020/02/25/2020-2-25-ORID-0025/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-caption">下一篇</div>
+      <div class="article-nav-title">
+        
+          ORID-0025 第二十五篇ORID
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/01/10/2020-1-10-ORID-0024/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-caption">上一篇</div>
+      <div class="article-nav-title">ORID-0024 第二十四篇ORID</div>
+    </a>
+  
+</nav>
+
+
+    <section class="share">
+        <div class="share-title">分享</div>
+        <a class="share-item" target="_blank"
+            href="https://twitter.com/share?text=Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 - 攸然自得&url=http%3A%2F%2Fyoursite.com%2F2020%2F02%2F21%2F2020-2-21-Linux-0001%2F">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a class="share-item" target="_blank"
+            href="https://www.facebook.com/sharer.php?title=Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 - 攸然自得&u=http%3A%2F%2Fyoursite.com%2F2020%2F02%2F21%2F2020-2-21-Linux-0001%2F">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <!-- <a class="share-item" target="_blank"
+            href="https://service.weibo.com/share/share.php?title=Linux笔记-2020-2-21 GalliumOS中Github同步并用Gitnote做云笔记 - 攸然自得&url=http://yoursite.com/2020/02/21/2020-2-21-Linux-0001/&pic=">
+            <div class="n-icon n-icon-weibo"></div>
+        </a> -->
+    </section>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+</div>
+                </section>
+            </section>
+
+            
+            <aside class="sidebar ">
+                
+
+
+<div class="widget" id="widget">
+    
+      
+  <div class="widget-wrap">
+    <div class="widget-inner">
+      <div class="toc post-toc-html"></div>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-cate">
+    <div class="widget-title"><span>Categories</span></div>
+    <div class="widget-inner">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E8%AE%B0/">日记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-tags">
+    <div class="widget-title"><span>Tags</span></div>
+    <div class="widget-inner">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ORID/" rel="tag">ORID</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/obsidian/" rel="tag">obsidian</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%99%A8%E9%97%B4%E6%97%A5%E8%AE%B0/" rel="tag">晨间日记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%82%BF%E7%98%A4%E5%B0%8F%E8%AE%B0/" rel="tag">肿瘤小记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%BF%E7%91%9C%E5%B0%8F%E8%AE%B0/" rel="tag">阿瑜小记</a></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-recent-posts">
+    <div class="widget-title"><span>Recent Posts</span></div>
+    <div class="widget-inner">
+      <ul>
+        
+          <li>
+            <a href="/2024/06/14/2024-05-24-%E5%91%A8%E4%BA%94%20%E9%98%BF%E7%91%9C%E7%9A%84%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0/">2024-05-24-周五 阿瑜的成长日记</a>
+          </li>
+        
+          <li>
+            <a href="/2024/06/14/2024-06-04-%E5%91%A8%E4%BA%8C%20%E9%98%BF%E7%91%9C%E7%9A%84%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0/">2024-06-04-周二 阿瑜的成长日记</a>
+          </li>
+        
+          <li>
+            <a href="/2024/06/14/20240511/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2024/05/22/2024-05-22-%E5%91%A8%E4%B8%89%20%E9%98%BF%E7%91%9C%E7%9A%84%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0/">2024-05-22-周三 阿瑜的成长日记</a>
+          </li>
+        
+          <li>
+            <a href="/2024/05/20/2024-05-20-%E5%91%A8%E4%B8%80%20%E9%98%BF%E7%91%9C%E7%9A%84%E6%88%90%E9%95%BF%E6%97%A5%E8%AE%B0/">2024-05-20-周一 阿瑜的成长日记</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-archive">
+    <div class="widget-title"><span>Archive</span></div>
+    <div class="widget-inner">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a></li></ul>
+    </div>
+  </div>
+
+
+    
+</div>
+
+<div id="backtop"><i class="icon icon-arrow-up"></i></div>
+            </aside>
+            
+        </div>
+    </div>
+
+    <footer class="footer">
+    <div class="footer-wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3c4859" fill-opacity="1" d="M0,160L60,181.3C120,203,240,245,360,240C480,235,600,181,720,186.7C840,192,960,256,1080,261.3C1200,267,1320,213,1380,186.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </div>
+
+    <!-- Please do not remove this -->
+    <!-- 开源不易，请勿删除 -->
+    <div class="footer-wrap">
+        <div class="footer-inner"> 
+            攸然自得 &copy; 2024<br>
+            Powered By Hexo · Theme By <a href="https://linhong.me/" target="_blank">Aomori</a> · <a href="https://github.com/lh1me/hexo-theme-aomori" target="_blank">Github</a>
+        </div>
+    </div>
+
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@6.0.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+
+
+
+
+<script src="/dist/build.js?1654266144177.js"></script>
+
+
+<script src="/dist/custom.js?1654266144177.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
