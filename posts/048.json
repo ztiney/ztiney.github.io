@@ -1,0 +1,25 @@
+{
+  "title": "ORID-0012 第十二篇ORID",
+  "date": "2019-04-22",
+  "path": "2019/04/22/2019-04-22-ORID-0012/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "ORID",
+      "slug": "ORID",
+      "permalink": "http://yoursite.com/tags/ORID/"
+    },
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "body": "<h2 id=\"Objective\"><a href=\"#Objective\" class=\"headerlink\" title=\"Objective\"></a>Objective</h2><h4 id=\"关于今天的课程，你记得什么？\"><a href=\"#关于今天的课程，你记得什么？\" class=\"headerlink\" title=\"关于今天的课程，你记得什么？\"></a>关于今天的课程，你记得什么？</h4><p>  把讨论区的创建、编辑、删除、查看等功能一一补全了</p>\n<h4 id=\"完成了什么？\"><a href=\"#完成了什么？\" class=\"headerlink\" title=\"完成了什么？\"></a>完成了什么？</h4><p>  把基本功能补全完整，并调试通过</p>\n<span id=\"more\"></span>\n<h2 id=\"Reflective\"><a href=\"#Reflective\" class=\"headerlink\" title=\"Reflective\"></a>Reflective</h2><h4 id=\"你要如何形容今天的情绪\"><a href=\"#你要如何形容今天的情绪\" class=\"headerlink\" title=\"你要如何形容今天的情绪\"></a>你要如何形容今天的情绪</h4><p>  稳定，轻松，今天没有突然的失控，看来要慢慢多留意自己的情绪波动</p>\n<h4 id=\"今天的高峰是什么\"><a href=\"#今天的高峰是什么\" class=\"headerlink\" title=\"今天的高峰是什么?\"></a>今天的高峰是什么?</h4><p>  为解决问题和目标，想方设法</p>\n<h4 id=\"今天的低点是什么\"><a href=\"#今天的低点是什么\" class=\"headerlink\" title=\"今天的低点是什么?\"></a>今天的低点是什么?</h4><p>  工作效率低下，一个上午好像什么也没有做，而且没有计划，想到什么就做什么</p>\n<h2 id=\"Interpretive\"><a href=\"#Interpretive\" class=\"headerlink\" title=\"Interpretive\"></a>Interpretive</h2><h4 id=\"我们今天学到了什么\"><a href=\"#我们今天学到了什么\" class=\"headerlink\" title=\"我们今天学到了什么?\"></a>我们今天学到了什么?</h4><p>  课程上学到了基本功能的一步步堆砌，而且也注意到一点，每做完一步都要git备份一下，这样可能是对调试和回调有帮助，这个习惯要养成</p>\n<h4 id=\"我们一个重要的领悟是什么\"><a href=\"#我们一个重要的领悟是什么\" class=\"headerlink\" title=\"我们一个重要的领悟是什么?\"></a>我们一个重要的领悟是什么?</h4><p>  每做完一步都要做个git记录，这样做错了也可以回调，减少失败成本</p>\n<h2 id=\"Decisional\"><a href=\"#Decisional\" class=\"headerlink\" title=\"Decisional\"></a>Decisional</h2><h4 id=\"我们会如何用一句话形容今天的工作\"><a href=\"#我们会如何用一句话形容今天的工作\" class=\"headerlink\" title=\"我们会如何用一句话形容今天的工作\"></a>我们会如何用一句话形容今天的工作</h4><p>  混乱没计划，需要有个短中期的工作计划，不要过于即兴</p>\n<h4 id=\"有哪些工作需要明天继续努力\"><a href=\"#有哪些工作需要明天继续努力\" class=\"headerlink\" title=\"有哪些工作需要明天继续努力\"></a>有哪些工作需要明天继续努力</h4><p>  明天处理好发电脑的任务吧，本来一件好简单的事，总是因为一些原因变得好复杂</p>"
+}

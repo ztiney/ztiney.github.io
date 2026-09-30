@@ -1,0 +1,20 @@
+{
+  "title": "开了一个midjourney共享帐号",
+  "date": "2023-04-24",
+  "path": "2023/04/24/2023-4-24-阿瑜小记/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "阿瑜小记",
+      "slug": "阿瑜小记",
+      "permalink": "http://yoursite.com/tags/%E9%98%BF%E7%91%9C%E5%B0%8F%E8%AE%B0/"
+    }
+  ],
+  "body": "<h2 id=\"试一试\"><a href=\"#试一试\" class=\"headerlink\" title=\"试一试\"></a>试一试</h2><p>不知道效果如何，到时看一下这里能不能上传图片</p>"
+}

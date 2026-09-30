@@ -1,0 +1,20 @@
+{
+  "title": "很火的AI",
+  "date": "2023-03-22",
+  "path": "2023/03/22/2023-3-22-阿瑜小记/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "阿瑜小记",
+      "slug": "阿瑜小记",
+      "permalink": "http://yoursite.com/tags/%E9%98%BF%E7%91%9C%E5%B0%8F%E8%AE%B0/"
+    }
+  ],
+  "body": "<p>最近chatGTP很火，相关的什么AI画图啊，AI这AI那的越出越多，感觉真的能有效的提高人类的生产力，但要想用好AI，首先你要知道要怎么提问题才能得到你想要的答案，感觉真的学无止境啊！</p>"
+}

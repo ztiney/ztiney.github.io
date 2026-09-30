@@ -1,0 +1,25 @@
+{
+  "title": "ORID-0005 第五篇ORID",
+  "date": "2019-04-14",
+  "path": "2019/04/14/2019-04-14-ORID-0005/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "ORID",
+      "slug": "ORID",
+      "permalink": "http://yoursite.com/tags/ORID/"
+    },
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "body": "<h2 id=\"Objective\"><a href=\"#Objective\" class=\"headerlink\" title=\"Objective\"></a>Objective</h2><h4 id=\"关于今天的课程，你记得什么？\"><a href=\"#关于今天的课程，你记得什么？\" class=\"headerlink\" title=\"关于今天的课程，你记得什么？\"></a>关于今天的课程，你记得什么？</h4><p>  了解了一些Linux的基本命令和ruby的一些基本操作，还有ruby的一些变量设置和类型等语法上的东西</p>\n<h4 id=\"完成了什么？\"><a href=\"#完成了什么？\" class=\"headerlink\" title=\"完成了什么？\"></a>完成了什么？</h4><p>  又重新开了一个新的专案，并备份了git</p>\n<span id=\"more\"></span>\n<h2 id=\"Reflective\"><a href=\"#Reflective\" class=\"headerlink\" title=\"Reflective\"></a>Reflective</h2><h4 id=\"你要如何形容今天的情绪\"><a href=\"#你要如何形容今天的情绪\" class=\"headerlink\" title=\"你要如何形容今天的情绪\"></a>你要如何形容今天的情绪</h4><p>  轻松，越来越享受这种渐进式的学习方法</p>\n<h4 id=\"今天的高峰是什么\"><a href=\"#今天的高峰是什么\" class=\"headerlink\" title=\"今天的高峰是什么?\"></a>今天的高峰是什么?</h4><p>  成功删除了一个heroku项目，重新搭建了一个专案，并一次运行通过</p>\n<h4 id=\"今天的低点是什么\"><a href=\"#今天的低点是什么\" class=\"headerlink\" title=\"今天的低点是什么?\"></a>今天的低点是什么?</h4><p>  工作，学习，家庭上面的时间还是没有一个好的分配和安排</p>\n<h2 id=\"Interpretive\"><a href=\"#Interpretive\" class=\"headerlink\" title=\"Interpretive\"></a>Interpretive</h2><h4 id=\"我们今天学到了什么\"><a href=\"#我们今天学到了什么\" class=\"headerlink\" title=\"我们今天学到了什么?\"></a>我们今天学到了什么?</h4><p>  学到了ruby的一些基础语法，这也是我学习编程一直是去到这里就停下来了，可能性格上有种怕麻烦的感觉，但这次老师说暂时不用记，只要打一篇，那就先看看吧</p>\n<h4 id=\"我们一个重要的领悟是什么\"><a href=\"#我们一个重要的领悟是什么\" class=\"headerlink\" title=\"我们一个重要的领悟是什么?\"></a>我们一个重要的领悟是什么?</h4><p>  有些坎是一下要过的，你不过永远就卡在那里</p>\n<h2 id=\"Decisional\"><a href=\"#Decisional\" class=\"headerlink\" title=\"Decisional\"></a>Decisional</h2><h4 id=\"我们会如何用一句话形容今天的工作\"><a href=\"#我们会如何用一句话形容今天的工作\" class=\"headerlink\" title=\"我们会如何用一句话形容今天的工作\"></a>我们会如何用一句话形容今天的工作</h4><p>  今天主任那边的工作一直是半吊子，感觉没什么动力，而且心态也没摆正</p>\n<h4 id=\"有哪些工作需要明天继续努力\"><a href=\"#有哪些工作需要明天继续努力\" class=\"headerlink\" title=\"有哪些工作需要明天继续努力\"></a>有哪些工作需要明天继续努力</h4><p>  明天开会看一下大家对新的政策有没有什么新的想法，公司前景还是感觉不太乐观，要努力的方面还是在这个编程学习上，真的要提升一下自己的自觉能力了。</p>"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "ORID-0019 第十九篇ORID",
+  "date": "2019-07-08",
+  "path": "2019/07/08/2019-07-08-ORID-0019/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "ORID",
+      "slug": "ORID",
+      "permalink": "http://yoursite.com/tags/ORID/"
+    },
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "body": "<h2 id=\"Objective\"><a href=\"#Objective\" class=\"headerlink\" title=\"Objective\"></a>Objective</h2><h4 id=\"关于今天的课程，你记得什么？\"><a href=\"#关于今天的课程，你记得什么？\" class=\"headerlink\" title=\"关于今天的课程，你记得什么？\"></a>关于今天的课程，你记得什么？</h4><p>  今天开始做笨方法学Python书上的练习</p>\n<h4 id=\"完成了什么？\"><a href=\"#完成了什么？\" class=\"headerlink\" title=\"完成了什么？\"></a>完成了什么？</h4><p>  完成到第三个练习</p>\n<span id=\"more\"></span>\n<h2 id=\"Reflective\"><a href=\"#Reflective\" class=\"headerlink\" title=\"Reflective\"></a>Reflective</h2><h4 id=\"你要如何形容今天的情绪\"><a href=\"#你要如何形容今天的情绪\" class=\"headerlink\" title=\"你要如何形容今天的情绪\"></a>你要如何形容今天的情绪</h4><p>  稳定，只想多学点其它东西</p>\n<h4 id=\"今天的高峰是什么\"><a href=\"#今天的高峰是什么\" class=\"headerlink\" title=\"今天的高峰是什么?\"></a>今天的高峰是什么?</h4><p>  顺利完成了两个练习</p>\n<h4 id=\"今天的低点是什么\"><a href=\"#今天的低点是什么\" class=\"headerlink\" title=\"今天的低点是什么?\"></a>今天的低点是什么?</h4><p>  之前全栈营的学习预到问题又停下来了，感觉自己总是虎头蛇尾，样样都不能坚持到最后，现在又开始睇笨方法，有时也想问自己到底想怎么样</p>\n<h2 id=\"Interpretive\"><a href=\"#Interpretive\" class=\"headerlink\" title=\"Interpretive\"></a>Interpretive</h2><h4 id=\"我们今天学到了什么\"><a href=\"#我们今天学到了什么\" class=\"headerlink\" title=\"我们今天学到了什么?\"></a>我们今天学到了什么?</h4><p>  学到了Python的一些基本语法</p>\n<h4 id=\"我们一个重要的领悟是什么\"><a href=\"#我们一个重要的领悟是什么\" class=\"headerlink\" title=\"我们一个重要的领悟是什么?\"></a>我们一个重要的领悟是什么?</h4><p>  发现Python的命令是有大小写区别的，写错了系统就认不出来了，所以真的要很严谨</p>\n<h2 id=\"Decisional\"><a href=\"#Decisional\" class=\"headerlink\" title=\"Decisional\"></a>Decisional</h2><h4 id=\"我们会如何用一句话形容今天的工作\"><a href=\"#我们会如何用一句话形容今天的工作\" class=\"headerlink\" title=\"我们会如何用一句话形容今天的工作\"></a>我们会如何用一句话形容今天的工作</h4><p>  今天基本上没有什么正式工作，上午去做了一些个人的事，下午基本是在公司看其它网站，和大佬聊了一下公司的未来，晚上还是守在电脑边等信息，不过也是最近这几天的状态，就是等不到任何信息</p>\n<h4 id=\"有哪些工作需要明天继续努力\"><a href=\"#有哪些工作需要明天继续努力\" class=\"headerlink\" title=\"有哪些工作需要明天继续努力\"></a>有哪些工作需要明天继续努力</h4><p>  明天好好想一下，是放弃全栈开始用笨方法，还是继续之前停下来的部分，不过因为停得太久，可能很多东西要重新查了</p>"
+}

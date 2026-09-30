@@ -1,0 +1,14 @@
+{
+  "title": "2024-05-10-周五 阿瑜的成长日记",
+  "date": "2024-05-10",
+  "path": "2024/05/10/2024-05-10-周五 阿瑜的成长日记/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [],
+  "body": "<h3 id=\"今日待办\"><a href=\"#今日待办\" class=\"headerlink\" title=\"今日待办\"></a>今日待办</h3><ul>\n<li><input disabled=\"\" type=\"checkbox\"> </li>\n<li><input disabled=\"\" type=\"checkbox\"> </li>\n<li><input disabled=\"\" type=\"checkbox\"> <h2 id=\"Objective\"><a href=\"#Objective\" class=\"headerlink\" title=\"Objective\"></a>Objective</h2></li>\n</ul>\n<h4 id=\"关于今天，你记得什么？\"><a href=\"#关于今天，你记得什么？\" class=\"headerlink\" title=\"关于今天，你记得什么？\"></a>关于今天，你记得什么？</h4><p>发现原来[[Thinkbook笔记本]]不能直接运行[[ventoy]]，听说要关闭安全启动这个功能才行<br>[[Internet Download Manager (IDM)]]更新了破解版</p>\n<h1 id=\"Enchancing-mindmap–实现思维导图自由\"><a href=\"#Enchancing-mindmap–实现思维导图自由\" class=\"headerlink\" title=\"Enchancing mindmap–实现思维导图自由\"></a>Enchancing mindmap–实现思维导图自由</h1><p>试了一圈，没有成功转换为思维导图可能是几种情况：</p>\n<p>①插件下载之后没启用</p>\n<p>②笔记开头的代码打错了：建议检查，小心复制粘贴</p>\n<p>③开头代码打对了，markdown格式对了，在笔记页的三个小点点那里没有“打开为思维导图”（按照我的经验，即使你解决了情景③大概率你也会存在情景④）：（语言选项是简体中文时）win端最左侧那个向右的小箭头→“打开命令面板”→输入“enhancing mindmap”→在弹出来的列表里选择“Enhancing Mindmap: 切换为markdown或mindmap模式”→然后就可以转换为导图，并且三个小点点里也有转换的选项了</p>\n<p>④开头代码打对了，markdown格式对了，在笔记页的三个小点点那里选择打开为思维导图或者用命令切换为思维导图后一片空白，什么都没有，关掉插件内容就又回来了：插件版本和软件版本不匹配。查看安装的Obsidian版本，如果你使用的是 1.4.0 以下版本，请使用插件的 v0.2.4 版本，需要去作者的github主页下载手动安装，直接从社区里下载的是v0.2.5 版本。（本人的问题在手动重新安装v0.2.4后就解决了）</p>\n<p>情景③和情景④的解决方法都时作者自己在github主页上提供的，简单搬运了一下</p>\n<h4 id=\"完成了什么？\"><a href=\"#完成了什么？\" class=\"headerlink\" title=\"完成了什么？\"></a>完成了什么？</h4><h2 id=\"Reflective\"><a href=\"#Reflective\" class=\"headerlink\" title=\"Reflective\"></a>Reflective</h2><h4 id=\"你要如何形容今天的情绪\"><a href=\"#你要如何形容今天的情绪\" class=\"headerlink\" title=\"你要如何形容今天的情绪\"></a>你要如何形容今天的情绪</h4><h4 id=\"今天的高峰是什么\"><a href=\"#今天的高峰是什么\" class=\"headerlink\" title=\"今天的高峰是什么?\"></a>今天的高峰是什么?</h4><p>又发现一个有用的软件 #Omnivore 几好用，仲可以推给Obsidian<br>还发现一个豆瓣的插件，也很好用</p>\n<h4 id=\"今天的低点是什么\"><a href=\"#今天的低点是什么\" class=\"headerlink\" title=\"今天的低点是什么?\"></a>今天的低点是什么?</h4><h2 id=\"Interpretive\"><a href=\"#Interpretive\" class=\"headerlink\" title=\"Interpretive\"></a>Interpretive</h2><h4 id=\"我们今天学到了什么\"><a href=\"#我们今天学到了什么\" class=\"headerlink\" title=\"我们今天学到了什么?\"></a>我们今天学到了什么?</h4><h4 id=\"我们一个重要的领悟是什么\"><a href=\"#我们一个重要的领悟是什么\" class=\"headerlink\" title=\"我们一个重要的领悟是什么?\"></a>我们一个重要的领悟是什么?</h4><h2 id=\"Decisional\"><a href=\"#Decisional\" class=\"headerlink\" title=\"Decisional\"></a>Decisional</h2><h4 id=\"我们会如何用一句话形容今天的工作\"><a href=\"#我们会如何用一句话形容今天的工作\" class=\"headerlink\" title=\"我们会如何用一句话形容今天的工作\"></a>我们会如何用一句话形容今天的工作</h4><h4 id=\"有哪些工作需要明天继续努力\"><a href=\"#有哪些工作需要明天继续努力\" class=\"headerlink\" title=\"有哪些工作需要明天继续努力\"></a>有哪些工作需要明天继续努力</h4>"
+}

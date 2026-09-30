@@ -1,0 +1,25 @@
+{
+  "title": "ORID-0006 第六篇ORID",
+  "date": "2019-04-15",
+  "path": "2019/04/15/2019-04-15-ORID-0006/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "ORID",
+      "slug": "ORID",
+      "permalink": "http://yoursite.com/tags/ORID/"
+    },
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "body": "<h2 id=\"Objective\"><a href=\"#Objective\" class=\"headerlink\" title=\"Objective\"></a>Objective</h2><h4 id=\"关于今天的课程，你记得什么？\"><a href=\"#关于今天的课程，你记得什么？\" class=\"headerlink\" title=\"关于今天的课程，你记得什么？\"></a>关于今天的课程，你记得什么？</h4><p>  重温了heroku的线上部署，还有新学了在原来的留言板基础上加入投票功能</p>\n<h4 id=\"完成了什么？\"><a href=\"#完成了什么？\" class=\"headerlink\" title=\"完成了什么？\"></a>完成了什么？</h4><p>  完成了两次heroku线上部署,把投票系统加进原来的网站，并完成线上线下的测试</p>\n<span id=\"more\"></span>\n<h2 id=\"Reflective\"><a href=\"#Reflective\" class=\"headerlink\" title=\"Reflective\"></a>Reflective</h2><h4 id=\"你要如何形容今天的情绪\"><a href=\"#你要如何形容今天的情绪\" class=\"headerlink\" title=\"你要如何形容今天的情绪\"></a>你要如何形容今天的情绪</h4><p>  开心，虽然累但感觉又学到了一点东西</p>\n<h4 id=\"今天的高峰是什么\"><a href=\"#今天的高峰是什么\" class=\"headerlink\" title=\"今天的高峰是什么?\"></a>今天的高峰是什么?</h4><p>  搭建了一个新专案，并调试通过</p>\n<h4 id=\"今天的低点是什么\"><a href=\"#今天的低点是什么\" class=\"headerlink\" title=\"今天的低点是什么?\"></a>今天的低点是什么?</h4><p>  调试中出现错误，后来发现原来线下服务器没有运行，忘记要长期运行</p>\n<h2 id=\"Interpretive\"><a href=\"#Interpretive\" class=\"headerlink\" title=\"Interpretive\"></a>Interpretive</h2><h4 id=\"我们今天学到了什么\"><a href=\"#我们今天学到了什么\" class=\"headerlink\" title=\"我们今天学到了什么?\"></a>我们今天学到了什么?</h4><p>  增加投票功能，虽然成个过程不是很清楚原理，但都按照流程做了出来</p>\n<h4 id=\"我们一个重要的领悟是什么\"><a href=\"#我们一个重要的领悟是什么\" class=\"headerlink\" title=\"我们一个重要的领悟是什么?\"></a>我们一个重要的领悟是什么?</h4><p>  虽然基础原理还不清楚，但开始有个大概的概念</p>\n<h2 id=\"Decisional\"><a href=\"#Decisional\" class=\"headerlink\" title=\"Decisional\"></a>Decisional</h2><h4 id=\"我们会如何用一句话形容今天的工作\"><a href=\"#我们会如何用一句话形容今天的工作\" class=\"headerlink\" title=\"我们会如何用一句话形容今天的工作\"></a>我们会如何用一句话形容今天的工作</h4><p>  虽然昨天打算做的两件事都处理了，但明显有拖延和时间没安排好，还经常分心想一些不切实际的事</p>\n<h4 id=\"有哪些工作需要明天继续努力\"><a href=\"#有哪些工作需要明天继续努力\" class=\"headerlink\" title=\"有哪些工作需要明天继续努力\"></a>有哪些工作需要明天继续努力</h4><p>  那人会一直都不齐人，未开得成，明天开始在公司电脑也要开始学习了，可能白天效果会更好，还有就是监控也要尽快安排完成，仲有邓总的微信记录导出，也要处理</p>"
+}

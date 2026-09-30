@@ -1,0 +1,25 @@
+{
+  "title": "ORID-0003 第三篇ORID",
+  "date": "2019-04-11",
+  "path": "2019/04/11/2019-04-11-ORID-0003/",
+  "categories": [
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "ORID",
+      "slug": "ORID",
+      "permalink": "http://yoursite.com/tags/ORID/"
+    },
+    {
+      "name": "日记",
+      "slug": "日记",
+      "permalink": "http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"
+    }
+  ],
+  "body": "<h2 id=\"Objective\"><a href=\"#Objective\" class=\"headerlink\" title=\"Objective\"></a>Objective</h2><h4 id=\"关于今天的课程，你记得什么？\"><a href=\"#关于今天的课程，你记得什么？\" class=\"headerlink\" title=\"关于今天的课程，你记得什么？\"></a>关于今天的课程，你记得什么？</h4><p>  终于部署好ruby和rails，并能正常打开网页，而且也把留言板功能做到了，然后是部署github的上传和备份</p>\n<h4 id=\"完成了什么？\"><a href=\"#完成了什么？\" class=\"headerlink\" title=\"完成了什么？\"></a>完成了什么？</h4><p>  完成了网页正常打开和留言板还有github的部署</p>\n<span id=\"more\"></span>\n<h2 id=\"Reflective\"><a href=\"#Reflective\" class=\"headerlink\" title=\"Reflective\"></a>Reflective</h2><h4 id=\"你要如何形容今天的情绪\"><a href=\"#你要如何形容今天的情绪\" class=\"headerlink\" title=\"你要如何形容今天的情绪\"></a>你要如何形容今天的情绪</h4><p>  开心，本来早上还是有点焦虑的，但晚上通过自己的努力解决了昨天的问题，所以心情不错</p>\n<h4 id=\"今天的高峰是什么\"><a href=\"#今天的高峰是什么\" class=\"headerlink\" title=\"今天的高峰是什么?\"></a>今天的高峰是什么?</h4><p>  通过重新的一步步操作并更新相关的软件，终于把问题排除了，虽然不是解决，而只是绕过了</p>\n<h4 id=\"今天的低点是什么\"><a href=\"#今天的低点是什么\" class=\"headerlink\" title=\"今天的低点是什么?\"></a>今天的低点是什么?</h4><p>  背痛还在困扰自己，久坐和不运动不是长远之计</p>\n<h2 id=\"Interpretive\"><a href=\"#Interpretive\" class=\"headerlink\" title=\"Interpretive\"></a>Interpretive</h2><h4 id=\"我们今天学到了什么\"><a href=\"#我们今天学到了什么\" class=\"headerlink\" title=\"我们今天学到了什么?\"></a>我们今天学到了什么?</h4><p>  有时候从头做一次，并把每个细节注意好，不失为解决问题的一个方法</p>\n<h4 id=\"我们一个重要的领悟是什么\"><a href=\"#我们一个重要的领悟是什么\" class=\"headerlink\" title=\"我们一个重要的领悟是什么?\"></a>我们一个重要的领悟是什么?</h4><p>  问题再多，只要多找找，总能找到解决的方法的</p>\n<h2 id=\"Decisional\"><a href=\"#Decisional\" class=\"headerlink\" title=\"Decisional\"></a>Decisional</h2><h4 id=\"我们会如何用一句话形容今天的工作\"><a href=\"#我们会如何用一句话形容今天的工作\" class=\"headerlink\" title=\"我们会如何用一句话形容今天的工作\"></a>我们会如何用一句话形容今天的工作</h4><p>  今天没什么工作，一直是做自己的事</p>\n<h4 id=\"有哪些工作需要明天继续努力\"><a href=\"#有哪些工作需要明天继续努力\" class=\"headerlink\" title=\"有哪些工作需要明天继续努力\"></a>有哪些工作需要明天继续努力</h4><p>  不过庞总那边一直没有认真去对待，明天真的要处理一下</p>"
+}
