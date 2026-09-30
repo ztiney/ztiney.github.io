@@ -18,6 +18,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: pip install Markdown==3.10.2
       - run: python scripts/build-timeline.py
       - uses: actions/configure-pages@v5
         with:

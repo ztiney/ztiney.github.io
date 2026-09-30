@@ -13,6 +13,9 @@ for p in posts:
  if p['path'] in seen: raise ValueError('Duplicate article path: '+p['path'])
  seen.add(p['path'])
  p.setdefault('categories',[]); p.setdefault('tags',[])
+ if 'markdown' in p:
+  import markdown
+  p['body']=markdown.markdown(p['markdown'],extensions=['extra','sane_lists','nl2br'])
  p['excerpt']=re.sub(r'\s+',' ',html.unescape(re.sub('<[^>]+>',' ',p['body']))).strip()[:155]
  image=re.search(r'<img[^>]+src="([^"]+)"',p['body']); p['image']=image.group(1) if image else ''
 # Remove only previously generated article pages whose sources were deleted.
