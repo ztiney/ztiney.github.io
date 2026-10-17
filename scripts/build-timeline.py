@@ -34,27 +34,34 @@ for p in posts:
 e=lambda x:html.escape(str(x),quote=True)
 def url(p):return '/'+quote(p['path'],safe='/')
 def shell(title,body,home=False):
- return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · 攸然自得</title><meta name="description" content="Tiney 的生活记录与成长日记"><link rel="stylesheet" href="/assets/timeline/style.css"><script defer src="/assets/timeline/app.js"></script></head><body><nav class="topnav"><a class="brand" href="/">TINEY / 攸然自得</a><div><a href="/">时间线</a><a href="/archives/">归档</a><a href="/photography/">摄影</a></div></nav>{'<header class="hero"><div class="diamond"></div><div class="hero-content"><span class="eyebrow">LIFE, ONE MOMENT AT A TIME</span><h1>攸然自得</h1><p>把日子写下来，让每一个平凡的瞬间有迹可循。</p><a class="start" href="#timeline">开始阅读 ↓</a></div><span class="hero-foot">TINEY’S JOURNAL · 记录生活</span></header>' if home else ''}{body}<footer>© Tiney · 攸然自得 <span>时间串起生活，文字留住记忆。</span></footer><dialog id="lightbox"><button aria-label="关闭图片">×</button><img alt="放大图片"></dialog></body></html>'''
+ return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} · 攸然自得</title><meta name="description" content="Tiney 的生活记录与成长日记"><link rel="stylesheet" href="/assets/timeline/style.css"><script defer src="/assets/timeline/app.js"></script></head><body><nav class="topnav"><a class="brand" href="/">TINEY / 攸然自得</a><div><a href="/">生活文章</a><a href="/crypto/">币圈笔记</a><a href="/archives/">归档</a><a href="/photography/">摄影</a></div></nav>{'<header class="hero"><div class="diamond"></div><div class="hero-content"><span class="eyebrow">LIFE, ONE MOMENT AT A TIME</span><h1>攸然自得</h1><p>把日子写下来，让每一个平凡的瞬间有迹可循。</p><a class="start" href="#timeline">开始阅读 ↓</a></div><span class="hero-foot">TINEY’S JOURNAL · 记录生活</span></header>' if home else ''}{body}<footer>© Tiney · 攸然自得 <span>时间串起生活，文字留住记忆。</span></footer><dialog id="lightbox"><button aria-label="关闭图片">×</button><img alt="放大图片"></dialog></body></html>'''
 def card(p):
- category=' · '.join(c['name'] for c in p['categories']) or '生活记录'
+ category=' · '.join(filter(None,[p.get('symbol',''),p.get('note_type','')])) if p.get('section')=='crypto' else (' · '.join(c['name'] for c in p['categories']) or '生活记录')
  summary=p['excerpt'][:65]
  if len(p['excerpt'])>65: summary+='…'
- return f'''<a class="card" href="{url(p)}" aria-label="{e(p['title'])}" data-date="{p['date']}" data-search="{e(p['title']+' '+p['excerpt'])}"><span class="dot"></span>{f'<div class="card-image"><img loading="lazy" src="{e(p["image"])}" alt=""></div>' if p['image'] else ''}<div class="card-content"><span class="category">{e(category)}</span><h2>{e(p['title'])}</h2><div class="meta"><time>{p['date']}</time></div>{f'<p>{e(summary)}</p>' if summary else ''}</div></a>'''
+ return f'''<a class="card" href="{url(p)}" aria-label="{e(p['title'])}" data-date="{p['date']}" data-search="{e(p['title']+' '+p['excerpt']+' '+p.get('symbol','')+' '+p.get('note_type',''))}"><span class="dot"></span>{f'<div class="card-image"><img loading="lazy" src="{e(p["image"])}" alt=""></div>' if p['image'] else ''}<div class="card-content"><span class="category">{e(category)}</span><h2>{e(p['title'])}</h2><div class="meta"><time>{p['date']}</time></div>{f'<p>{e(summary)}</p>' if summary else ''}</div></a>'''
 
 def listing(title,selected,home=False):
  years=sorted({p['date'][:4] for p in selected},reverse=True)
  controls='<button class="year active" data-year="all">全部</button>'+''.join(f'<button class="year" data-year="{y}">{y}</button>' for y in years)
- content=f'<main id="timeline" class="timeline-main"><div class="section-title"><div><span class="eyebrow">THE TIMELINE</span><h2>{e(title)}</h2></div><p>{len(selected)} 篇记录 · 慢慢走，认真记</p></div><div class="toolbar"><div class="years">{controls}</div><label class="search"><span>⌕</span><input type="search" placeholder="搜索日记…" aria-label="搜索日记"></label></div><div class="timeline">'+''.join(card(p) for p in selected)+'</div><p class="empty" hidden>没有找到相关记录。</p><a class="back-top" href="#timeline">回到时间线顶部 ↑</a></main>'
+ content=f'<main id="timeline" class="timeline-main"><div class="section-title"><div><span class="eyebrow">THE TIMELINE</span><h2>{e(title)}</h2></div><p>{len(selected)} 篇记录 · 慢慢走，认真记</p></div><div class="toolbar"><div class="years">{controls}</div><label class="search"><span>⌕</span><input type="search" placeholder="搜索日记…" aria-label="搜索日记"></label></div><div class="timeline">'+''.join(card(p) for p in selected)+'</div><p class="empty" hidden>暂无相关笔记，可以在编辑器中新增并发布。</p><nav class="pagination" aria-label="文章分页"><button id="prev-page" type="button">← 上一页</button><span id="page-info" aria-live="polite"></span><button id="next-page" type="button">下一页 →</button></nav><a class="back-top" href="#timeline">回到时间线顶部 ↑</a></main>'
  return shell(title,content,home)
 # Preserve every existing article URL, with the original HTML body.
-for i,p in enumerate(posts):
+for p in posts:
+ siblings=[x for x in posts if x.get('section','life')==p.get('section','life')]
+ i=siblings.index(p)
+ back='/crypto/' if p.get('section')=='crypto' else '/'
+ section_label='币圈笔记 / CRYPTO' if p.get('section')=='crypto' else '生活记录 / JOURNAL'
+ extra=' · '.join(filter(None,[p.get('symbol',''),p.get('note_type','')]))
  links=''
  for label,j in [('较新的记录',i-1),('较早的记录',i+1)]:
-  if 0<=j<len(posts): links+=f'<a href="{url(posts[j])}"><small>{label}</small>{e(posts[j]["title"])} →</a>'
- body=f'<main class="post-main"><a class="crumb" href="/">← 返回时间线</a><article class="post"><header><span class="category">生活记录 / JOURNAL</span><h1>{e(p["title"])}</h1><div class="meta">Tiney · <time>{p["date"]}</time></div></header><div class="post-body">{p["body"]}</div></article><nav class="post-nav">{links}</nav></main>'
+  if 0<=j<len(siblings): links+=f'<a href="{url(siblings[j])}"><small>{label}</small>{e(siblings[j]["title"])} →</a>'
+ body=f'<main class="post-main"><a class="crumb" href="{back}">← 返回列表</a><article class="post"><header><span class="category">{section_label} {e(extra)}</span><h1>{e(p["title"])}</h1><div class="meta">Tiney · <time>{p["date"]}</time></div></header><div class="post-body">{p["body"]}</div></article><nav class="post-nav">{links}</nav></main>'
  (root/p['path']).mkdir(parents=True,exist_ok=True)
  (root/p['path']/'index.html').write_text(shell(p['title'],body))
-(root/'index.html').write_text(listing('生活的时间线',posts,True))
+(root/'index.html').write_text(listing('生活的时间线',[p for p in posts if p.get('section','life')=='life'],True))
+(root/'crypto').mkdir(exist_ok=True)
+(root/'crypto/index.html').write_text(listing('币圈笔记',[p for p in posts if p.get('section')=='crypto']))
 # Rebuild existing archives, categories, tags and paginated URLs.
 for folder in ['archives','categories','tags','page']:
  for file in (root/folder).rglob('index.html'):

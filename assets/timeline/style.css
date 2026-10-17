@@ -7,3 +7,5 @@
 .card:focus-visible{outline:3px solid #f3ce72;outline-offset:5px}
 .card:hover h2{color:#0b927d}
 @media(max-width:700px){.timeline{gap:18px}.card-image img{height:135px;max-height:135px}}
+
+.pagination{display:flex;justify-content:center;align-items:center;gap:18px;margin:26px 0;font-size:12px}.pagination button{border:1px solid #ffffff40;background:transparent;color:#fff;padding:9px 15px;border-radius:4px;cursor:pointer}.pagination button:disabled{opacity:.35;cursor:default}@media(max-width:700px){.topnav div{gap:12px}.topnav{padding:0 15px}}
