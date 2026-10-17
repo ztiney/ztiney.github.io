@@ -1,0 +1,13 @@
+{
+  "title": "编辑器发布测试",
+  "date": "2026-10-17",
+  "path": "2026/10/17/editor-publish-test/",
+  "markdown": "## 编辑器发布测试\n\n这是一篇用于验证博客编辑器发布流程的测试文章。\n\n- Markdown 排版\n- 文章上传\n- 自动部署\n\n**此文章为功能测试，不是正式日记。**",
+  "categories": [
+    {
+      "name": "功能测试"
+    }
+  ],
+  "tags": [],
+  "body": "<h2>编辑器发布测试</h2>\n<p>这是一篇用于验证博客编辑器发布流程的测试文章。</p>\n<ul>\n<li>Markdown 排版</li>\n<li>文章上传</li>\n<li>自动部署</li>\n</ul>\n<p><strong>此文章为功能测试，不是正式日记。</strong></p>"
+}
